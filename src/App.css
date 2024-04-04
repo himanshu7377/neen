@@ -1,42 +1,50 @@
 .user-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  padding-top: 20px;
+  padding: 20px;
+  
+  
   
 }
 
 .user-box {
-  /* padding: 20px; */
+  
   border: 1px solid gainsboro;
- width: 350px;
+  padding: auto;
+  margin: auto;
+  width: 350px;
+  
+ 
  
 }
 
 .upperbox{
-  width: auto;
+  width: inherit;
   height: auto;
   background-color: #f0f0f0;
   
   padding: auto;
   justify-content: center;
+ 
   /* border-radius: 7px; */
 }
 .container {
   display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    
     height: auto; /* adjust height as needed */
    
     width: 300px;
+    margin-left: 25px;
     
     /* border-radius: 30px; */
    
 }
 
 .square {
-  width: 200px; /* adjust width as needed */
+  width: 210px; /* adjust width as needed */
   height: 200px; /* adjust height as needed */
   background-color: #cdd0d3;
   position: relative;
@@ -46,7 +54,7 @@
 }
 
 .circle {
-  margin-top: 20px;
+  margin-top: 10px;
   /* margin-bottom: 10px; */
   width: 100px; /* adjust size as needed */
   height: 100px; /* adjust size as needed */
@@ -59,11 +67,11 @@
 }
 
 .half-rectangle {
-  width: 150px;
-  height: 0;
+  width: 175px;
+  height: 0px;
  
-  border-radius: 10px;
-  margin-top: 30px;
+  border-radius: 25px;
+  margin-top: 25px;
   
   border-bottom: 100px solid #aaa;
   position: absolute;
@@ -73,10 +81,24 @@
 }
 
 .half-rectangle-text {
-  color: red; /* Text color */
-  margin: 5px;
+  color: rgb(234, 4, 4); /* Text color */
+  margin: 8px;
   word-wrap: break-word; /* Allow the text to wrap into multiple lines */
   text-align: center;
+  font-weight: bold;
+  font-size: smaller;
+  
+}
+
+.half-rectangle-link{
+  color: black;
+  text-decoration: underline;
+
+  text-align: center;
+  font-size: x-small; 
+  margin-left: 50px;
+  margin-bottom: 5px;
+  
 }
 
 .hr{
@@ -85,7 +107,10 @@
 .user-details{
   background-color: #fcfcfcf5;
   padding: 0 20px;
-  margin-left: 5px;
+  margin-bottom: 5px;
+  display: block;
+
+ 
   align-items: center;
   /* border-radius: 10px; */
 }
@@ -104,12 +129,6 @@
 
 
 
-.user-box {
-  background-color: #fcfcfcf5;
-  
-  
-
-}
 
 .button-container {
   display: flex;
@@ -162,9 +181,9 @@ color: lightgray;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.modal-content h2 {
+.modal-content p {
   
- 
+ size: 10px;
   
 }
 

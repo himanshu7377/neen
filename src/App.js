@@ -87,13 +87,14 @@ const App = () => {
               <div className="circle"></div>
               <div className="half-rectangle">
                 <p className="half-rectangle-text">you are using an outdated API endpoint</p>
+                <span className="half-rectangle-link">Documentation</span>
               </div>
             </div>
           </div>
           </div>
           
           <div className="user-details">
-            <h3>{user.name}</h3>
+            <p>{user.name}</p>
             <p>
               <FiMail />  {user.email}
             </p>
